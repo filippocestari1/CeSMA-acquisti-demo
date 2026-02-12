@@ -1,0 +1,55 @@
+{
+  "suppliers": [
+    {
+      "name": "Demo Forniture Srl",
+      "vat": "IT01234567890",
+      "address": "Via Demo 1, Napoli"
+    },
+    {
+      "name": "TechLab Europe GmbH",
+      "vat": "DE123456789",
+      "address": "Musterstraße 10, Berlin"
+    }
+  ],
+  "labs": [
+    {
+      "code": "ACE",
+      "name": "Laboratorio ACE"
+    },
+    {
+      "code": "LabRAD",
+      "name": "Laboratorio RAD"
+    }
+  ],
+  "requests": [
+    {
+      "data_rda": "2026-01-10",
+      "responsabile_rda": "Prof. Demo Rossi",
+      "richiedente": "Dott.ssa Demo Bianchi",
+      "laboratorio_progetto": "Progetto Demo PNRR",
+      "pnrr": true,
+      "cup": "A12B23000000001",
+      "tipologia": "RDO_TD_MEPA",
+      "oggetto_spesa": "Fornitura strumentazione demo",
+      "importo_netto": 5000.0,
+      "iva": 1100.0,
+      "totale": 6100.0,
+      "fase": "IN_ATTESA",
+      "nota_ultimo_step": "MANCA stipula su MePA. Scadenza offerte tra 5 giorni."
+    },
+    {
+      "data_rda": "2026-02-01",
+      "responsabile_rda": "Prof. Demo Verdi",
+      "richiedente": "Ing. Demo Neri",
+      "laboratorio_progetto": "FONDO HARDWARE CESMA",
+      "pnrr": false,
+      "tipologia": "TD_FUORI_MEPA",
+      "oggetto_spesa": "Servizio assistenza annuale",
+      "importo_netto": 750.0,
+      "iva": 165.0,
+      "totale": 915.0,
+      "fase": "COMPLETA",
+      "nota_ultimo_step": "COMPLETO"
+    }
+  ]
+}
